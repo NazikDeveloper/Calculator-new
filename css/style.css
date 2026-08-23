@@ -73,7 +73,6 @@ p {
   font-size: 24px;
   font-weight: 400;
   padding: 10px;
-  /* color: #ffffff; */
   color: #000000;
   outline: none;
   text-align: right;
@@ -100,7 +99,7 @@ p {
 .add,
 .comma,
 .result {
-    color: #000000;
+  color: #000000;
   width: 100%;
   aspect-ratio: 1;
   border: none;
@@ -130,7 +129,7 @@ p {
 }
 
 .number-zero {
-    color: #000000;
+  color: #000000;
   width: 100%;
   aspect-ratio: 2 / 1;
   grid-column: span 2;
@@ -149,7 +148,6 @@ p {
 .number-zero.color {
   background-color: rgb(147, 245, 245);
 }
-
 
 /* Chrome, Safari, Edge, Opera */
 .input-number::-webkit-inner-spin-button,
