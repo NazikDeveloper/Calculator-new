@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Калькулятор</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="calculator">
+        <h1 class="visually-hidden">Calculator</h1>
+      <div class="input-group">
+        <label class="visually-hidden" for="input">Введіть число</label>
+        <input
+          type="text"
+          name="calc"
+          class="input-number"
+          min="1"
+          id="input"
+        />
+      </div>
+      <div class="btn-container">
+          <button id="clear" onclick="cancel()" class="cancel color">C</button>
+          <button id="plus-minus" class="plus-minus color">+/-</button>
+
+          <button id="percent" class="percent color">%</button>
+          <button id="divide" class="divide color">/</button>
+          <button id="number7" class="number">7</button>
+          <button id="number8" class="number">8</button>
+          <button id="number9" class="number">9</button>
+          <button id="multiply" class="multiply color">X</button>
+          <button id="number4" class="number">4</button>
+          <button id="number5" class="number">5</button>
+          <button id="number6" class="number">6</button>
+          <button id="minus" class="minus color">-</button>
+          <button id="number1" class="number">1</button>
+          <button id="number2" class="number">2</button>
+          <button id="number3" class="number">3</button>
+          <button id="add" class="add color">+</button>
+          <button id="number0" class="number-zero color">0</button>
+          <button id="comma" class="comma">.</button>
+          <button id="result" class="result color">=</button>
+      </div>
+    </div>
+    <script src="./js/document.js" defer></script>
+  </body>
+</html>
