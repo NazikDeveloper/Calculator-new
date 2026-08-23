@@ -17,7 +17,11 @@ const result = document.getElementById("result");
 // ЦИФРИ
 // =========================
 
-const numbers = document.querySelectorAll(".number");
+// =========================
+// ЦИФРИ
+// =========================
+
+const numbers = document.querySelectorAll(".number, .number-zero");
 
 numbers.forEach((button) => {
     button.addEventListener("click", () => {
