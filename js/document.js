@@ -237,3 +237,16 @@ function calculate(expression) {
 
     return calculation;
 }
+
+
+if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => {
+        navigator.serviceWorker.register("./service-worker.js")
+            .then(() => {
+                console.log("Service Worker зареєстровано");
+            })
+            .catch((error) => {
+                console.error("Помилка Service Worker:", error);
+            });
+    });
+}
